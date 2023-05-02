@@ -23,6 +23,15 @@
     to {left: 500px;}
 }
 
+@keyframes animacao5 {
+    0% {left: 0px;}
+    25% {left: 20px; background-color: blue;}
+    60% {left: 100px; background-color: orange;}
+    100% {left: 50px; background-color: red;}
+}
+
+
+
 .animation-div{
     width: 100px;
     height: 100px;
@@ -93,4 +102,40 @@
     background-color: darkblue;
     width: 50px;
     height: 50px;
+    position: relative;
+    animation: animacao5 8s ease-out 4s infinite;
+}
+
+/* transition */
+
+.btn {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.transition {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    transition: 4s;
+}
+
+.transition:hover {
+    width: 300px;
 }
