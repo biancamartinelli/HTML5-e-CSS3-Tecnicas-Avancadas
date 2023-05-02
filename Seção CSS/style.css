@@ -18,6 +18,11 @@
 
 }
 
+@keyframes animacao4 {
+    from {left: 0;}
+    to {left: 500px;}
+}
+
 .animation-div{
     width: 100px;
     height: 100px;
@@ -35,6 +40,8 @@
     position: relative;
 }
 
+
+
 /* animation delay e iteration*/
 
 .animation-div3{
@@ -46,4 +53,44 @@
     animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
+}
+
+/* timing function */
+
+.box{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: animacao4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#animation-div4 {
+    animation-timing-function: linear;
+}
+
+#animation-div5 {
+    animation-timing-function: ease;
+}
+
+#animation-div6 {
+    animation-timing-function: ease-in;
+}
+
+#animation-div7 {
+    animation-timing-function: ease-out;
+}
+
+#animation-div8 {
+    animation-timing-function: ease-in-out;
+}
+
+/* shiorthand - nome, duração, timing-function, delay, iteration */
+
+#animation-div9 {
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
 }
