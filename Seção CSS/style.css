@@ -219,3 +219,14 @@
 .gradient9{
     background-image: radial-gradient(circle, #3a3042, #db9d47,  #ff7848);
 }
+
+/* font face */
+
+@font-face{
+    font-family: 'Lage Grafica';
+    src: url(fonts/lage_grafica.ttf);
+}
+
+.fontface{
+    font-family: 'Lage Grafica';
+}
