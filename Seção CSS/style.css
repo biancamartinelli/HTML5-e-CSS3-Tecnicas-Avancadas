@@ -207,3 +207,15 @@
 .gradient6{
     background-image: linear-gradient(red, salmon , silver);
 }
+
+.gradient7{
+    background-image: radial-gradient(#3a3042, #db9d47, #ff7848);
+}
+
+.gradient8{
+    background-image: radial-gradient(#3a3042 10%, #db9d47 30%,  #ff7848);
+}
+
+.gradient9{
+    background-image: radial-gradient(circle, #3a3042, #db9d47,  #ff7848);
+}
