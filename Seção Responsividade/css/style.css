@@ -1,0 +1,64 @@
+h1 {
+    color: red;
+}
+
+h4 {
+    color: blue;
+}
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media print and (max-width:600px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (max-width: 700px) {
+    h2 {
+        color: purple;
+    }
+}
+
+@media (min-width: 200px) {
+    h2 {
+        color: teal;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    h3 {
+        font-size: 3em;
+    }
+
+}
+
+@media (orientation: landscape) {
+    h3 {
+        color: brown;
+    }
+}
+
+@media (max-width: 200px), (orientation: landscape) {
+    h3 {
+        font-size: 4em;
+    }
+}
+
+
+
+@media (min-width: 600px) {
+    h4 {
+        color: red;
+    }
+}
+
+
+h5 {
+    color: aqua;
+}
